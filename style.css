@@ -1,0 +1,122 @@
+/* 
+- Font sizes(px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1440px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  background-color: hsl(30, 38%, 92%);
+  color: hsl(228, 12%, 48%);
+}
+
+.container {
+  max-width: 64rem;
+  margin: 12.8rem auto;
+  background-color: #ffffff;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.img1 {
+  max-width: 100%;
+}
+
+.img2 {
+  display: none;
+  max-width: 100%;
+}
+
+.inf {
+  margin-right: 3.2rem;
+}
+.inf-head {
+  font-size: 1.4rem;
+  letter-spacing: 0.4rem;
+  margin: 3.2rem 0 2.4rem 0;
+  color: hsl(228, 12%, 48%);
+}
+.inf-title {
+  font-family: "Fraunces", sans-serif;
+  font-size: 4.2rem;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+  margin-bottom: 2.4rem;
+}
+.inf-text {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.6;
+  color: hsl(228, 12%, 48%);
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+.inf-price {
+  font-size: 1.4rem;
+  letter-spacing: 0.02rem;
+  color: hsl(228, 12%, 48%);
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.main-price {
+  font-size: 3.2rem;
+  font-family: "Fraunces", sans-serif;
+  color: hsl(158, 36%, 37%);
+}
+
+.inf-btn:link,
+.inf-btn:visited {
+  background-color: hsl(158, 36%, 37%);
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  text-decoration: none;
+  padding: 1.2rem;
+  border-radius: 9px;
+  display: inline-block;
+  transition: all 0.3s;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.inf-btn:hover,
+.inf-btn:active {
+  background-color: #183329;
+}
+
+.icon {
+  stroke: #fff;
+  width: 24px;
+  height: 24px;
+}

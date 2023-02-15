@@ -1,0 +1,22 @@
+@media (max-width: 24em) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 3fr;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
+    display: block;
+  }
+
+  .inf {
+    margin: 0 3.2rem;
+  }
+
+  .inf-title {
+    font-size: 3.4rem;
+  }
+}
